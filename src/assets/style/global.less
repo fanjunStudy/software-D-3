@@ -1,0 +1,24 @@
+
+.commonTitle(@bcg:linear-gradient(to right, yellow, pink 70%),@fts:30px) {
+    background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: @bcg;
+	font-size: @fts;
+	text-align: center;
+}
+
+.customFlex(@a:row,@b:center,@c:center) {
+	display: flex;
+	flex-direction: @a;
+	justify-content: @b;
+	align-items: @c;
+}
+
+.ep-bg-purple {
+	background-color: purple;
+}
+
+.ep-bg-lawngreen {
+	background-color: lawngreen;
+}
